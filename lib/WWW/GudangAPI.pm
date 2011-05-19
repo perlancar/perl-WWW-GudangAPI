@@ -26,14 +26,16 @@ _
         module => ['str*' => {
             summary => 'Name of module to call',
             match   => qr!^\w+((?:::|/)\w+)*$!,
+            arg_pos => 0,
         }],
         sub => ['str*' => {
             summary => 'Name of function to call',
             match   => qr/^\w+$/,
+            arg_pos => 1,
         }],
         args => ['hash' => {
             summary => 'Function arguments',
-            arg_pos => 3,
+            arg_pos => 2,
         }],
         https => ['bool' => {
             summary => 'Whether to use HTTPS instead of HTTP',
