@@ -1,5 +1,10 @@
 Revision history for WWW::GudangAPI
 
+0.02     2011-11-30
+
+         - Update to using Sub::Spec::URI.
+
+
 0.01     2011-05-19
 
          - First release.
