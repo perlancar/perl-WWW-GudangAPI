@@ -9,6 +9,7 @@ use Sub::Spec::URI;
 
 our @EXPORT_OK = qw(get_ga_ssuri);
 our %SPEC;
+# VERSION
 
 $SPEC{get_ga_ssuri} = {
     summary =>
