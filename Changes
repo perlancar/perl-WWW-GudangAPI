@@ -1,4 +1,11 @@
-Revision history for WWW::GudangAPI
+Revision history for WWW-GudangAPI
+
+0.04     2012-03-22
+
+         Replace Sub::Spec::URI::https with Perinci::Access.
+
+         Note that this module is still non-functional because www.gudangapi.com is not operational yet.
+
 
 0.03     2011-12-01
 
