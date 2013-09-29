@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-use Test::More 0.96;
+use Test::More 0.98;
 use WWW::GudangAPI qw(get_ga_ssuri);
 
 plan skip_all => 'Only for RELEASE_TESTING' unless $ENV{RELEASE_TESTING};
@@ -48,4 +48,3 @@ sub test_call_ga_func {
         }
     };
 }
-
