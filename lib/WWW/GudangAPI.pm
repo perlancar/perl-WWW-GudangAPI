@@ -132,10 +132,6 @@ As a matter of fact, you can just do:
 and skip this module altogether. But in the future some convenience features
 will be added to this module.
 
-This module uses L<Log::Any>.
-
-This module has L<Rinci> metadata.
-
 
 =head1 SEE ALSO
 
