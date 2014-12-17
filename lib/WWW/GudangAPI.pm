@@ -1,5 +1,8 @@
 package WWW::GudangAPI;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
@@ -9,7 +12,11 @@ use Perinci::Access;
 
 our @EXPORT_OK = qw(get_ga_ssuri);
 our %SPEC;
-# VERSION
+
+$SPEC{':package'} = {
+    v => 1.1,
+    summary => 'Client library for GudangAPI.com',
+};
 
 $SPEC{call_ga} = {
     v => 1.1,
@@ -102,8 +109,7 @@ sub call_ga {
 }
 
 1;
-__END__
-# ABSTRACT: Client library for GudangAPI.com
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
