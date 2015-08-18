@@ -7,7 +7,8 @@ use 5.010001;
 use strict;
 use warnings;
 use Exporter::Lite;
-use Log::Any '$log';
+use Log::Any::IfLOG '$log';
+
 use Perinci::Access;
 
 our @EXPORT_OK = qw(get_ga_ssuri);
