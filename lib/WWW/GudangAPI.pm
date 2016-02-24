@@ -6,11 +6,11 @@ package WWW::GudangAPI;
 use 5.010001;
 use strict;
 use warnings;
-use Exporter::Lite;
 use Log::Any::IfLOG '$log';
 
 use Perinci::Access;
 
+use Exporter qw(import);
 our @EXPORT_OK = qw(get_ga_ssuri);
 our %SPEC;
 
