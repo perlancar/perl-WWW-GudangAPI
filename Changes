@@ -1,5 +1,3 @@
-Revision history for WWW-GudangAPI
-
 0.04     2012-03-22 (SHARYANTO)
 
          - Replace Sub::Spec::URI::https with Perinci::Access.
