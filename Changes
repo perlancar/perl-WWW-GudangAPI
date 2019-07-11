@@ -1,4 +1,4 @@
-0.04     2012-03-22 (SHARYANTO)
+0.04     2012-03-22  Released-By: SHARYANTO
 
          - Replace Sub::Spec::URI::https with Perinci::Access.
 
@@ -6,16 +6,16 @@
            www.gudangapi.com is not operational yet.
 
 
-0.03     2011-12-01 (SHARYANTO)
+0.03     2011-12-01  Released-By: SHARYANTO
 
          - No functional changes. Build fixes (forgot # VERSION).
 
 
-0.02     2011-11-30 (SHARYANTO)
+0.02     2011-11-30  Released-By: SHARYANTO
 
          - Update to using Sub::Spec::URI.
 
 
-0.01     2011-05-19 (SHARYANTO)
+0.01     2011-05-19  Released-By: SHARYANTO
 
          - First release.
